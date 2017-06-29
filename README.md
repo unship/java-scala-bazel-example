@@ -1,3 +1,13 @@
+# run and build
+```
+bazel run //src/main/java/com/example/JavaMain:JavaMain
+bazel build //src/main/java/com/example/JavaMain:JavaMain_deploy.jar
+
+bazel run //src/main/scala/com/example/ScalaMain:ScalaMain
+bazel build //src/main/scala/com/example/ScalaMain:ScalaMain_deploy.jar
+
+```
+
 # scala java cooperation
 
 ## scala call java lib
